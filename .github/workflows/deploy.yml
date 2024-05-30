@@ -15,15 +15,13 @@ jobs:
         with:
           node-version: '16'
       - name: Install dependencies
-        run: |
-          cd docs
-          yarn install
+        run: yarn install
+        working-directory: ./docs
       - name: Build the site
-        run: |
-          cd docs
-          yarn build
+        run: yarn build
+        working-directory: ./docs
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build
+          publish_dir: docs/build
