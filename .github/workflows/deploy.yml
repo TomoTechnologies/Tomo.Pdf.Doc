@@ -14,25 +14,14 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-<<<<<<< HEAD
       - name: Install dependencies
         run: yarn install
         working-directory: ./docs
       - name: Build the site
         run: yarn build
         working-directory: ./docs
-=======
-      - run: |
-          cd docs
-          yarn install
-          yarn build
->>>>>>> 9e4b01390dfa77acfe06c39c6394a751c5b3bc6f
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-<<<<<<< HEAD
           publish_dir: ./docs/build
-=======
-          publish_dir: docs/build
->>>>>>> 9e4b01390dfa77acfe06c39c6394a751c5b3bc6f
