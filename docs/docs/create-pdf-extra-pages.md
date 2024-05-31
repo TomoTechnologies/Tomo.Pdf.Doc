@@ -1,7 +1,7 @@
 ---
 title: Creating a PDF with Extra Pages using Tomo.PDF
 description: Learn how to create a PDF document with multiple pages using the Tomo.PDF library. This guide covers adding and managing extra pages in your PDFs.
-keywords: Tomo.PDF, PDF creation, extra pages, PDF library, .NET PDF, PDF document
+keywords: ["Tomo.PDF", "PDF creation", "extra pages", "PDF library", ".NET PDF", "PDF document"]
 author: Tomo Files
 date: 2024-05-31
 ---
