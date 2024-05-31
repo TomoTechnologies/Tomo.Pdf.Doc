@@ -18,7 +18,7 @@ This guide will walk you through creating a PDF document with a custom font usin
 
 Start by defining the output file path and ensure any existing file is deleted to avoid conflicts:
 
-\`\`\`csharp
+```csharp
 string filePath = "PdfWithCustomFont.pdf";
 
 if (File.Exists(filePath))
@@ -26,21 +26,21 @@ if (File.Exists(filePath))
     File.Delete(filePath);
     Console.WriteLine($"Existing file {filePath} deleted.");
 }
-\`\`\`
+```
 
 ### 2. Creating the PDF Builder
 
-Initialize the \`TomoPdfBuilder\` which will be used to build the PDF document:
+Initialize the `TomoPdfBuilder` which will be used to build the PDF document:
 
-\`\`\`csharp
+```csharp
 var builder = new TomoPdfBuilder();
-\`\`\`
+```
 
 ### 3. Using a Custom Font
 
 To add text with a custom font, specify the font file path, text content, position, and size, then add it to the builder:
 
-\`\`\`csharp
+```csharp
 var fontPath = Path.Combine("Fonts", "Roboto-Regular.ttf"); // Path to your custom font file
 if (File.Exists(fontPath))
 {
@@ -51,18 +51,18 @@ else
 {
     Console.WriteLine($"Font file {fontPath} not found.");
 }
-\`\`\`
+```
 
 ### 4. Saving the PDF
 
 Once all elements are added, build and save the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.Build(filePath);
 
 // Output success message
 Console.WriteLine($"PDF with custom font created successfully and saved to {filePath}.");
-\`\`\`
+```
 
 ## Conclusion
 
