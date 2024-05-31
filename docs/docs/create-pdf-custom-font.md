@@ -1,5 +1,5 @@
 ---
-title: Creating a PDF with Custom Font using Tomo.PDF
+title: Creating a PDF with Custom Font
 description: Learn how to create a PDF document with a custom font using the Tomo.PDF library. This guide covers incorporating custom fonts into your PDFs.
 keywords: ["Tomo.PDF", "PDF creation", "custom font", "PDF library", ".NET PDF", "PDF document"]
 author: Tomo Files

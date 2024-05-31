@@ -1,5 +1,5 @@
 ---
-title: Creating a PDF with Shapes using Tomo.PDF
+title: Creating a PDF with Shapes
 description: Learn how to create a PDF document with various shapes using the Tomo.PDF library. This guide covers adding circles, rectangles, and lines to your PDFs.
 keywords: ["Tomo.PDF", "PDF creation", "shapes", "PDF library", ".NET PDF", "PDF document"]
 author: Tomo Files

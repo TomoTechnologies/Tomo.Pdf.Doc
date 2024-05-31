@@ -1,5 +1,5 @@
 ---
-title: TomoText Class in Tomo.PDF
+title: TomoText
 description: Learn how to use the TomoText class in the Tomo.PDF library to add text elements to your PDF documents.
 keywords: ["Tomo.PDF", "PDF creation", "TomoText", "text elements", "PDF library", ".NET PDF", "PDF document"]
 author: Tomo Files

@@ -1,7 +1,7 @@
 ---
 id: create-basic-pdf
 title: Creating a Basic PDF
-description: Learn how to create a basic PDF document with TomoPDF.
+description: Learn how to create a basic PDF document
 keywords:
   - TomoPDF
   - Basic PDF
