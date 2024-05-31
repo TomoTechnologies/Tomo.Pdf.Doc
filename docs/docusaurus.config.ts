@@ -5,7 +5,7 @@ const config: DocusaurusConfig = {
   title: 'TomoPDF Documentation',
   tagline: 'Comprehensive documentation for TomoPDF',
   url: 'https://yourusername.github.io',
-  baseUrl: '/tomo.pdf.doc/',
+  baseUrl: '/Tomo.Pdf.Doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
