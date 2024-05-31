@@ -18,7 +18,7 @@ This guide will walk you through creating a PDF document with multiple pages usi
 
 Start by defining the output file path and ensure any existing file is deleted to avoid conflicts:
 
-\`\`\`csharp
+```csharp
 string filePath = "PdfWithExtraPage.pdf";
 
 if (File.Exists(filePath))
@@ -26,50 +26,50 @@ if (File.Exists(filePath))
     File.Delete(filePath);
     Console.WriteLine($"Existing file {filePath} deleted.");
 }
-\`\`\`
+```
 
 ### 2. Creating the PDF Builder
 
-Initialize the \`TomoPdfBuilder\` which will be used to build the PDF document:
+Initialize the `TomoPdfBuilder` which will be used to build the PDF document:
 
-\`\`\`csharp
+```csharp
 var builder = new TomoPdfBuilder();
-\`\`\`
+```
 
 ### 3. Adding Content to the First Page
 
 Add text to the first page of the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.AddElement(new TomoText("Hello, PDF World!", 50, 50, textSize: 14));
-\`\`\`
+```
 
 ### 4. Adding an Extra Page
 
 To add an extra page to the document, use the following code:
 
-\`\`\`csharp
+```csharp
 builder.AddElement(new TomoPage());
-\`\`\`
+```
 
 ### 5. Adding Content to the Second Page
 
 Add text to the second page of the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.AddElement(new TomoText("This is the second page!", 50, 50, textSize: 14));
-\`\`\`
+```
 
 ### 6. Saving the PDF
 
 Once all elements are added, build and save the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.Build(filePath);
 
 // Output success message
 Console.WriteLine($"PDF with extra page created successfully and saved to {filePath}.");
-\`\`\`
+```
 
 ## Conclusion
 
