@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[4583],{6866:(o,s,c)=>{c.r(s),c.d(s,{default:()=>t});c(6540);var e=c(6347),r=c(4848);function t(){return(0,r.jsx)(e.rd,{to:"/Tomo.Pdf.Doc/intro"})}}}]);
