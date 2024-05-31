@@ -7,21 +7,14 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Visual Elements',
-      items: [
-        // Add any documents related to Visual Elements here
-      ],
-    },
-    {
-      type: 'category',
       label: 'Tutorials',
-      items: [
+      items: [        
         'create-basic-pdf',
         'create-custom-layout',
         'create-pdf-extra-pages',
         'create-pdf-custom-font',
         'create-pdf-with-image',
-        'create-pdf-with-shapes',
+        'create-pdf-with-shapes',       
       ],
     },
   ],
