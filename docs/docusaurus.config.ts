@@ -17,7 +17,7 @@ const config: DocusaurusConfig = {
       title: 'TomoPDF Documentation',
       logo: {
         alt: 'TomoPDF Logo',
-        src: 'img/logo.svg',
+        src: 'img/tomosmall.png',
       },
       items: [
         {
