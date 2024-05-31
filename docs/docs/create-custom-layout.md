@@ -1,3 +1,11 @@
+---
+title: Creating Your Own Layout with Tomo.PDF
+description: Learn how to create a custom PDF layout using the Tomo.PDF library. This guide covers adding rectangles, images, lines, and text to personalize your PDF documents.
+keywords: Tomo.PDF, PDF creation, custom layout, PDF library, .NET PDF, PDF document
+author: Tomo Files
+date: 2024-05-31
+---
+
 # Creating Your Own Layout with Tomo.PDF
 
 ## Introduction

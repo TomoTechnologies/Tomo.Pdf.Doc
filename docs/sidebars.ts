@@ -7,10 +7,20 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Doc and Examples',
+      label: 'Visual Elements',
+      items: [
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Tutorials',
       items: [        
         'create-basic-pdf',
-        'create-custom-layout',       
+        'create-custom-layout',
+        'create-pdf-extra-page',
+        'create-pdf-custom-font',
+        'create-pdf-with-image',
+        'create-pdf-with-shapes',       
       ],
     },
   ],
