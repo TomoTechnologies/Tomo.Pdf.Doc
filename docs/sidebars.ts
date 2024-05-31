@@ -17,6 +17,13 @@ const sidebars = {
         'create-pdf-with-shapes',       
       ],
     },
+    {
+      type: 'category',
+      label: 'Tomo Elements',
+      items: [
+        'tomotext',
+      ],
+    },
   ],
 };
 
