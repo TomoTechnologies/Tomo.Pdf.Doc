@@ -7,10 +7,11 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Documentation',
+      label: 'Doc and Examples',
       items: [
         'getting-started', // Add your documents here
         'another-doc', // Replace with your actual doc IDs
+        'create-basic-pdf',        
       ],
     },
   ],
