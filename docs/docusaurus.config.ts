@@ -1,4 +1,4 @@
-import {DocusaurusConfig} from '@docusaurus/types';
+import { DocusaurusConfig } from '@docusaurus/types';
 
 const config: DocusaurusConfig = {
   // Other configurations
@@ -36,6 +36,7 @@ const config: DocusaurusConfig = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.ts'),
+          routeBasePath: '/', // Serve the docs at the site's root
         },
       },
     ],
