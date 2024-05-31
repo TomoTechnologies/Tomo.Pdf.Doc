@@ -22,6 +22,10 @@ const sidebars = {
       label: 'Tomo Elements',
       items: [
         'tomotext',
+        'tomocanvas',
+        'tomofont',
+        'tomocolor',
+        'tomoimage',
       ],
     },
   ],
