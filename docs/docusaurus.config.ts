@@ -10,7 +10,7 @@ const config: DocusaurusConfig = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'TomoTechnologies', // GitHub org/user name.
-  projectName: 'tomo.pdf.doc', // GitHub repo name.
+  projectName: 'Tomo.Pdf.Doc', // GitHub repo name.
 
   themeConfig: {
     navbar: {
