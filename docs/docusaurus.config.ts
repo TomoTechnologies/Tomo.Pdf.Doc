@@ -28,6 +28,11 @@ const config: DocusaurusConfig = {
         },
       ],
     },
+    colorMode: {
+      defaultMode: 'dark', // Set the default theme to dark
+      disableSwitch: false, // Enable the theme switcher
+      respectPrefersColorScheme: true,
+    },
   },
 
   presets: [
