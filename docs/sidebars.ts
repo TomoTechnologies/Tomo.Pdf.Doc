@@ -9,11 +9,6 @@ const sidebars = {
       type: 'category',
       label: 'Tutorials',
       items: [        
-        'create-basic-pdf',
-        'create-custom-layout',
-        'create-pdf-extra-pages',
-        'create-pdf-custom-font',
-        'create-pdf-with-image',
         'create-pdf-with-shapes',       
       ],
     },

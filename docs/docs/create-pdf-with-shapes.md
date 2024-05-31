@@ -18,7 +18,7 @@ This guide will walk you through creating a PDF document with various shapes usi
 
 Start by defining the output file path and ensure any existing file is deleted to avoid conflicts:
 
-\`\`\`csharp
+```csharp
 string filePath = "PdfWithShapes.pdf";
 
 if (File.Exists(filePath))
@@ -26,36 +26,36 @@ if (File.Exists(filePath))
     File.Delete(filePath);
     Console.WriteLine($"Existing file {filePath} deleted.");
 }
-\`\`\`
+```
 
 ### 2. Creating the PDF Builder
 
-Initialize the \`TomoPdfBuilder\` which will be used to build the PDF document:
+Initialize the `TomoPdfBuilder` which will be used to build the PDF document:
 
-\`\`\`csharp
+```csharp
 var builder = new TomoPdfBuilder();
-\`\`\`
+```
 
 ### 3. Adding Shapes
 
 To add shapes to the PDF, specify their types, positions, and sizes, then add them to the builder:
 
-\`\`\`csharp
+```csharp
 builder.AddElement(new TomoCircle(100, 100, 50, new TomoColor(0, 0, 0))); // Circle at (100, 100) with radius 50
 builder.AddElement(new TomoRectangle(200, 100, 100, 50, new TomoColor(0, 0, 0))); // Rectangle at (200, 100) with width 100 and height 50
 builder.AddElement(new TomoLine(50, 50, 150, 150)); // Line from (50, 50) to (150, 150)
-\`\`\`
+```
 
 ### 4. Saving the PDF
 
 Once all elements are added, build and save the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.Build(filePath);
 
 // Output success message
 Console.WriteLine($"PDF with shapes created successfully and saved to {filePath}.");
-\`\`\`
+```
 
 ## Conclusion
 
