@@ -8,10 +8,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Doc and Examples',
-      items: [
-        'getting-started', // Add your documents here
-        'another-doc', // Replace with your actual doc IDs
-        'create-basic-pdf',        
+      items: [        
+        'create-basic-pdf',
+        'create-custom-layout',       
       ],
     },
   ],
