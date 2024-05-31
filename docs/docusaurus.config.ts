@@ -14,7 +14,7 @@ const config: DocusaurusConfig = {
 
   themeConfig: {
     navbar: {
-      title: 'TomoPDF Documentation',
+      title: 'Tomo.Pdf',
       logo: {
         alt: 'TomoPDF Logo',
         src: 'img/tomosmall.png',
