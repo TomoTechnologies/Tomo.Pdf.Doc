@@ -18,7 +18,7 @@ This guide will walk you through creating a PDF document with an image using the
 
 Start by defining the output file path and ensure any existing file is deleted to avoid conflicts:
 
-\`\`\`csharp
+```csharp
 string filePath = "PdfWithImage.pdf";
 
 if (File.Exists(filePath))
@@ -26,21 +26,21 @@ if (File.Exists(filePath))
     File.Delete(filePath);
     Console.WriteLine($"Existing file {filePath} deleted.");
 }
-\`\`\`
+```
 
 ### 2. Creating the PDF Builder
 
-Initialize the \`TomoPdfBuilder\` which will be used to build the PDF document:
+Initialize the `TomoPdfBuilder` which will be used to build the PDF document:
 
-\`\`\`csharp
+```csharp
 var builder = new TomoPdfBuilder();
-\`\`\`
+```
 
 ### 3. Adding an Image
 
 To add an image to the PDF, specify the image file path, position, and size, then add it to the builder:
 
-\`\`\`csharp
+```csharp
 var imagePath = Path.Combine("Images", "tomologo.png"); // Path to your image file
 if (File.Exists(imagePath))
 {
@@ -51,18 +51,18 @@ else
 {
     Console.WriteLine($"Image file {imagePath} not found.");
 }
-\`\`\`
+```
 
 ### 4. Saving the PDF
 
 Once all elements are added, build and save the PDF document:
 
-\`\`\`csharp
+```csharp
 builder.Build(filePath);
 
 // Output success message
 Console.WriteLine($"PDF with image created successfully and saved to {filePath}.");
-\`\`\`
+```
 
 ## Conclusion
 
